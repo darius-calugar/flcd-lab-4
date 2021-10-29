@@ -1,0 +1,13 @@
+begin
+    integer list l
+    integer size
+    read size
+    each i from 1 to size
+    begin
+        read l at i
+        if 2 mod i is 0
+        begin
+            l at 1 becomes 0
+        end
+    end
+end

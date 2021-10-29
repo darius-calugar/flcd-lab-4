@@ -1,0 +1,12 @@
+begin
+    int_eger a
+    integer 123b
+    read a
+    read 123b
+    if a larger b
+    begin
+        print a
+        stop
+    end
+    print 123b
+end

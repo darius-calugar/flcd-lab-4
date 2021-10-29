@@ -1,0 +1,36 @@
+begin
+    define mytype
+    begin
+        integer n1
+        integer n2
+    end
+
+    mytype obj
+    integer k
+    n1 of obj becomes 1
+    n2 of obj becomes 1
+    read k
+    if k smaller 1
+    begin
+        print "Error this will not work"
+        stop
+    end
+    if k smaller 3
+    begin
+        print 1
+        stop
+    end
+    k becomes k minus 2
+    each i from 1 to k
+    begin
+        integer new
+        new becomes n1 of obj plus n2 of obj
+        if i is k
+        begin
+            print new
+            stop
+        end
+        n1 of obj becomes n2 of obj
+        n2 of obj becomes new
+    end
+end
