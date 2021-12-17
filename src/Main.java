@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        var fileNames = List.of("p1", "p2", "p3", "p1err");
+        var fileNames = List.of("new_p1", "new_p2", "new_p3");
         for (var fileName : fileNames) {
             var inputFile         = new File("input/" + fileName + ".verba");
             var reservedWordsFile = new File("input/token.in");
@@ -28,7 +28,7 @@ public class Main {
                 saveSymbolTable(symbolTable, fileName);
                 System.out.println("Lexically correct");
             } catch (LexicalError e) {
-                System.out.println(e);
+                System.out.println(e.getMessage());
             } catch (IOException e) {
                 e.printStackTrace();
             }

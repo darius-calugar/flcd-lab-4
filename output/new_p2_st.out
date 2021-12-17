@@ -1,0 +1,11 @@
+0, n2, hash=0, index=0
+10, 2, hash=0, index=1
+1, obj, hash=1, index=0
+11, 3, hash=1, index=1
+2, type, hash=2, index=0
+4, "Error this will not work", hash=4, index=0
+5, i, hash=5, index=0
+6, new, hash=6, index=0
+7, k, hash=7, index=0
+9, n1, hash=9, index=0
+19, 1, hash=9, index=1
